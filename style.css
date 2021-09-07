@@ -64,18 +64,27 @@
     width: 500px;
 }
 
+.ex-6-img {
+    transition: filter;
+}
+
 .ex-6-img:hover {
     filter: saturate(0);
-    transition: filter;
+}
+
+.ex-7-img {
+    transition: filter 1s;
 }
 
 .ex-7-img:hover {
     filter: sepia(50%) blur(2px);
-    transition: filter 1s;
+}
+
+.ex-8-img {
+    transition: all 1s;
 }
 
 .ex-8-img:hover {
-    transition: all 1s;
     filter: grayscale(.5) brightness(.6);
     border-radius: 2rem;
 }
@@ -90,6 +99,7 @@
     filter: saturate(.5) blur(2px);
     border-radius: 2rem;
     width: 600px;
+    margin: 0;
 }
 
 .ex-10-icon {
